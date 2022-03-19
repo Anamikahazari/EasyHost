@@ -1,0 +1,18 @@
+/* .slick-prev:before, .slick-next:before{
+    color:red;
+} */
+
+/* .slick-arrow{
+    display: block;
+    color:green;
+} */
+/* .slick-prev{
+    background-color: yellow;
+    display: block;
+} */
+.slick-dots{
+    background-color: yellowgreen;
+}
+.slick-slider button{
+display: inline-block;
+}
