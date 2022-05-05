@@ -9,7 +9,14 @@ module.exports = {
       'dancing': ['Dancing Script', 'cursive'],
       'satisfy': ['Satisfy', 'cursive'],
     },
-    extend: {},
+    // colors:{              if using it then tailwind default color classes are not working?
+    //   'bluev': '#CCFFE5'
+    // },
+    extend: {
+      // backgroundColor: {
+			//  'black':'#333',
+			// },
+    },
   },
   plugins: [],
 }

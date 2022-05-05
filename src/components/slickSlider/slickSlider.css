@@ -14,5 +14,22 @@
     background-color: yellowgreen;
 }
 .slick-slider button{
-display: inline-block;
+/* display: inline-block; */
 }
+.slick-prev:before {
+    /* content: "<"; */
+    color: yellowgreen;
+    font-size: 30px;
+    position: absolute;
+    bottom:-100px;
+    left:45%;
+  }
+  
+  .slick-next:before {
+    /* content: ">"; */
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    bottom:-100px;
+    right:45%;
+  }

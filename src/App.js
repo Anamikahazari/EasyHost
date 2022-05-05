@@ -19,7 +19,6 @@ function App() {
         <Routes>
               <Route exact path="/" element={ <HowIsThere />}/>
               <Route path="/hey_There" element={<AllOfUs/>}/>
-           
         </Routes>
      
       </Router>
